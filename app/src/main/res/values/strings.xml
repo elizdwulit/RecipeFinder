@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Recipe Finder</string>
+    <string name="search_for_recipe_str">Search for a Recipe</string>
+    <string name="enter_recipe_name_str">Enter name of recipe</string>
+    <string name="search_str">Search</string>
+    <string name="search_prev_str">Search Previously Found Recipes</string>
+    <string name="recipe_str">Recipe</string>
+    <string name="nutrition_facts_str">Nutrition Facts</string>
+    <string name="nutrition_info_str">Nutrition Info</string>
+    <string name="sugar_str">Sugar:</string>
+    <string name="fiber_str">Fiber:</string>
+    <string name="sodium_str">Sodium:</string>
+    <string name="potassium_str">Potassium:</string>
+    <string name="sat_fat_str">Saturated Fat:</string>
+    <string name="total_fat_str">Total Fat:</string>
+    <string name="calories_str">Calories:</string>
+    <string name="cholesterol_str">Cholesterol:</string>
+    <string name="protein_str">Protein:</string>
+    <string name="carbs_str">Carbohydrates:</string>
+    <string name="placeholder_amt_g">0g</string>
+    <string name="searching_str">Searching...</string>
+    <string name="please_enter_search_str">Please enter a recipe to search for</string>
+    <string name="saved_recipe_str">Saved Recipe</string>
+    <string name="prev_recipes_str">Previously Viewed Recipes</string>
+    <string name="problem_getting_recipe">Ran into problem getting recipe information</string>
+    <string name="ingredients_str">Ingredients:</string>
+    <string name="instructions_str">Instructions:</string>
+</resources>

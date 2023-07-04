@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/RecipeFragTheme">
+
+    <ScrollView android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context=".RecipeInfoFragment"
+            android:padding="16dp"
+            android:layout_marginBottom="30dp">
+
+            <TextView
+                android:id="@+id/recipe_name_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textStyle="bold"
+                android:text=""
+                android:textSize="30dp"/>
+
+            <!-- Serving Size -->
+            <TextView
+                android:id="@+id/serving_size_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/recipe_name_textview"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textStyle="bold"
+                android:text=""
+                android:textSize="15dp"
+                android:layout_marginTop="10dp"/>
+
+            <!-- Ingredients section -->
+            <TextView
+                android:id="@+id/ingredients_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/serving_size_textview"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textStyle="bold"
+                android:text="@string/ingredients_str"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/ingredients_list_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/ingredients_title"
+                android:text=""
+                android:textSize="18dp"/>
+
+            <!-- Instructions section -->
+            <TextView
+                android:id="@+id/instructions_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/ingredients_list_textview"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textStyle="bold"
+                android:text="@string/instructions_str"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/instructions_list_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/instructions_title"
+                android:text=""
+                android:textSize="18dp"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

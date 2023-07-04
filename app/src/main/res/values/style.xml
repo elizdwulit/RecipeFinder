@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="NutritionFactsTheme">
+        <item name="android:textSize">18dp</item>
+    </style>
+    <style name="HomePageTheme">
+        <item name="android:textSize">30dp</item>
+        <item name="colorControlNormal">@color/emerald</item>
+        <item name="colorControlActivated">@color/emerald</item>
+        <item name="colorControlHighlight">@color/emerald</item>
+        <item name="android:textColor">@color/dark_emerald</item>
+    </style>
+    <style name="HomePageButton" parent="@style/Widget.AppCompat.Button">
+        <item name="android:textSize">15dp</item>
+        <item name="android:backgroundTint">@color/dark_emerald</item>
+    </style>
+    <style name="GreenToolbar" parent="Theme.AppCompat">
+        <item name="android:background">@color/dark_emerald</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+    <style name="RecipeFragTheme" parent="">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="NutritionFragTheme" parent="">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:theme="@style/HomePageTheme">
+
+    <include layout="@layout/custom_toolbar"
+        android:id="@+id/activitymain_custom_toolbar"/>
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/activitymain_custom_toolbar"
+        android:layout_marginTop="150dp"
+        android:text="@string/search_for_recipe_str"/>
+
+    <EditText
+        android:id="@+id/mainactivity_edittext"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title_text"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:hint="@string/enter_recipe_name_str"
+        />
+
+    <Button
+        android:id="@+id/mainactivity_enter_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mainactivity_edittext"
+        android:layout_marginTop="20dp"
+        android:text="@string/search_str"
+        android:onClick="searchForRecipe"
+        android:theme="@style/HomePageButton"/>
+
+    <Button
+        android:id="@+id/mainactivity_findsaved_button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mainactivity_enter_button"
+        android:layout_marginTop="30dp"
+        android:text="@string/search_prev_str"
+        android:onClick="findRecipe"
+        android:theme="@style/HomePageButton"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

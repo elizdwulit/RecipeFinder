@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".NutritionInfoFragment"
+    android:padding="60dp"
+    android:theme="@style/NutritionFragTheme">
+
+        <!-- Sugar -->
+        <TextView
+            android:id="@+id/sugar_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textStyle="bold"
+            android:text="@string/sugar_str" />
+
+        <TextView
+            android:id="@+id/sugar_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/sugar_label"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginLeft="5dp"
+            android:text="@string/placeholder_amt_g" />
+
+        <!-- Fiber -->
+        <TextView
+            android:id="@+id/fiber_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/sugar_label"
+            android:textStyle="bold"
+            android:text="@string/fiber_str" />
+
+        <TextView
+            android:id="@+id/fiber_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/fiber_label"
+            app:layout_constraintTop_toBottomOf="@id/sugar_label"
+            android:layout_marginLeft="5dp"
+            android:text="@string/placeholder_amt_g" />
+
+        <!-- Sodium -->
+        <TextView
+            android:id="@+id/sodium_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/fiber_label"
+            android:textStyle="bold"
+            android:text="@string/sodium_str" />
+
+        <TextView
+            android:id="@+id/sodium_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/sodium_label"
+            app:layout_constraintTop_toBottomOf="@id/fiber_label"
+            android:layout_marginLeft="5dp"
+            android:text="@string/placeholder_amt_g" />
+
+        <!-- Potassium -->
+        <TextView
+            android:id="@+id/potassium_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/sodium_label"
+            android:textStyle="bold"
+            android:text="@string/potassium_str" />
+
+        <TextView
+            android:id="@+id/potassium_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/potassium_label"
+            app:layout_constraintTop_toBottomOf="@id/sodium_label"
+            android:layout_marginLeft="5dp"
+            android:text="@string/placeholder_amt_g" />
+
+        <!-- Sat Fat -->
+        <TextView
+            android:id="@+id/sat_fat_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/potassium_label"
+            android:textStyle="bold"
+            android:text="@string/sat_fat_str" />
+
+        <TextView
+            android:id="@+id/sat_fat_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/sat_fat_label"
+            app:layout_constraintTop_toBottomOf="@id/potassium_label"
+            android:layout_marginLeft="5dp"
+            android:text="@string/placeholder_amt_g" />
+
+        <!-- Total Fat -->
+        <TextView
+            android:id="@+id/total_fat_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/sat_fat_label"
+            android:textStyle="bold"
+            android:text="@string/total_fat_str" />
+
+        <TextView
+            android:id="@+id/total_fat_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/total_fat_label"
+            app:layout_constraintTop_toBottomOf="@id/sat_fat_label"
+            android:layout_marginLeft="5dp"
+            android:text="@string/placeholder_amt_g" />
+
+        <!-- Calories -->
+        <TextView
+            android:id="@+id/calories_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/total_fat_label"
+            android:textStyle="bold"
+            android:text="@string/calories_str" />
+
+        <TextView
+            android:id="@+id/calories_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/calories_label"
+            app:layout_constraintTop_toBottomOf="@id/total_fat_label"
+            android:layout_marginLeft="5dp"
+            android:text="@string/placeholder_amt_g" />
+
+        <!-- Cholesterol -->
+        <TextView
+            android:id="@+id/chol_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/calories_label"
+            android:textStyle="bold"
+            android:text="@string/cholesterol_str" />
+
+        <TextView
+            android:id="@+id/chol_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/chol_label"
+            app:layout_constraintTop_toBottomOf="@id/calories_label"
+            android:layout_marginLeft="5dp"
+            android:text="@string/placeholder_amt_g" />
+
+        <!-- Protein -->
+        <TextView
+            android:id="@+id/protein_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/chol_label"
+            android:textStyle="bold"
+            android:text="@string/protein_str" />
+
+        <TextView
+            android:id="@+id/protein_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/protein_label"
+            app:layout_constraintTop_toBottomOf="@id/chol_label"
+            android:layout_marginLeft="5dp"
+            android:text="@string/placeholder_amt_g" />
+
+        <!-- Carbs -->
+        <TextView
+            android:id="@+id/carbs_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/protein_label"
+            android:textStyle="bold"
+            android:text="@string/carbs_str" />
+
+        <TextView
+            android:id="@+id/carbs_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/carbs_label"
+            app:layout_constraintTop_toBottomOf="@id/protein_label"
+            android:layout_marginLeft="5dp"
+            android:text="@string/placeholder_amt_g" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

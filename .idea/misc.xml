@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/elizd/OneDrive/Documents/CIS 651 - Mobile/FinalProject/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/elizd/OneDrive/Documents/CIS 651 - Mobile/FinalProject/app/src/main/res/layout/activity_recipe.xml" value="0.1" />
+        <entry key="..\:/Users/elizd/OneDrive/Documents/CIS 651 - Mobile/FinalProject/app/src/main/res/layout/activity_recipe_history.xml" value="0.17395833333333333" />
+        <entry key="..\:/Users/elizd/OneDrive/Documents/CIS 651 - Mobile/FinalProject/app/src/main/res/layout/custom_toolbar.xml" value="0.1840277777777778" />
+        <entry key="..\:/Users/elizd/OneDrive/Documents/CIS 651 - Mobile/FinalProject/app/src/main/res/layout/fragment_nutrition_info.xml" value="0.22" />
+        <entry key="..\:/Users/elizd/OneDrive/Documents/CIS 651 - Mobile/FinalProject/app/src/main/res/layout/fragment_recipe_info.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
